@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES6",
+      "ScriptHost",
+      "ES2015.Core"
+    ]
+  }
+}
