@@ -1,0 +1,20 @@
+{
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+      "node_modules",
+      "webpack.config.js"
+  ],
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "es5",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES6",
+      "ScriptHost",
+      "ES2015.Core"
+    ]
+  }
+}
